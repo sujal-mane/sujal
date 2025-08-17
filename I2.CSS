@@ -1,0 +1,58 @@
+body{
+  background-image: url('m1.png');
+  background-repeat: no-repeat; /* Prevents repetition */
+  background-size: cover;
+  padding: 30px;
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: red double underline;
+
+}
+
+/* === Font styles === */
+.font1 {
+  font: italic small-caps bold 40px/2 cursive;
+}
+P{
+    text-align: center;
+    color:red;
+}
+.font2 {
+  font-family: "Courier New", monospace;
+}
+
+font3 {
+  font-family: Georgia, serif;
+}
+
+/* === Link Styles with Pseudo-classes === */
+a:link {
+  color: blue;
+  text-decoration: none;
+  cursor: url('https://cdn.custom-cursor.com/db/cursor/32/Fortnite_Skye_Cursor.png'), auto;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+  cursor: url('https://cdn.custom-cursor.com/db/cursor/32/Fortnite_Skye_Cursor.png'), pointer;
+}
+
+a:active {
+  color: red;
+}
+
+/* Optionally adjust font sizes and layout */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
